@@ -12,11 +12,11 @@ public class CallNumber {
 	 */
 	public static void main(String[] args) {
 
-		RestAPI restAPI = new RestAPI("<AUTH_ID>", "<AUTH_TOKEN>", "v1");
+		RestAPI restAPI = new RestAPI("MAMZIWZDEXYJK5NMFIMD", "OTJjZjExYjZjNTY0ZWZkZmYyN2IxMTIyNmJkMDY0", "v1");
 		
 		LinkedHashMap<String, String> params = new LinkedHashMap<String, String>();
-		params.put("from", "xxxxxxxxxx");
-		params.put("to", "xxxxxxxxxx");
+		params.put("from", "1111");
+		params.put("to", "573135555198");
 		params.put("answer_url", "http://dl.dropbox.com/u/54579287/Docs/speak.xml");
 
 		Call response;
@@ -30,5 +30,4 @@ public class CallNumber {
 		}
 
 	}
-
 }
