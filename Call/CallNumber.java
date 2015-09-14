@@ -12,7 +12,7 @@ public class CallNumber {
 	 */
 	public static void main(String[] args) {
 
-		RestAPI restAPI = new RestAPI("MAMZIWZDEXYJK5NMFIMD", "OTJjZjExYjZjNTY0ZWZkZmYyN2IxMTIyNmJkMDY0", "v1");
+		RestAPI restAPI = new RestAPI("<AUTH ID>", "<TOKEN>", "v1");
 		
 		LinkedHashMap<String, String> params = new LinkedHashMap<String, String>();
 		params.put("from", "1111");
